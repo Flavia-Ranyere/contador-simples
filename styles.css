@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi:ital@0;1&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,600&display=swap');
+
+* {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 42px;
+    color: #f06;
+    justify-content: center;
+   
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    height: 50vh;
+    background-color: #021934; 
+    text-align: center;
+}
+
+button {
+    border-radius: 50%;
+    font-size: 32px;
+    color: black;
+    font-weight: 600;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 42px;
+}
+
+
+    
